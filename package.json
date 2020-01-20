@@ -1,0 +1,25 @@
+{
+  "name": "luckymongoose",
+  "version": "1.0.0",
+  "description": "Express and MongoDB project for storing, updating and retrieving data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschweighauser/luckymongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kschweighauser/luckymongoose/issues"
+  },
+  "homepage": "https://github.com/kschweighauser/luckymongoose#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2"
+  }
+}
